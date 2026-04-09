@@ -1,6 +1,6 @@
-// ملف إدارة أسعار منيو بن نوح
+
 const menuPrices = {
-    // الساخن (Hot)
+  
     espresso: 70,
     cappuccino: 90,
     latte: 80,
@@ -12,7 +12,6 @@ const menuPrices = {
     regular_coffee: 160,
     tea: 120,
 
-    // البارد (Cold)
     soda: 180,
     ice_latte: 180,
     spanish_latte: 190,
@@ -24,7 +23,6 @@ const menuPrices = {
     fresh_juice: 120,
     water: 180,
 
-    // الحلويات (Dessert)
     molten_cake: 120,
     cheesecake: 150,
     brownies: 130,
