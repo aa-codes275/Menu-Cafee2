@@ -12,7 +12,7 @@ const menuPrices = {
     regular_coffee: 160,
     tea: 120,
 
-    soda: 180,
+    soda: 50,
     ice_latte: 180,
     spanish_latte: 190,
     ice_caramel_macchiato: 200,
