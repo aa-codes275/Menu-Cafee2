@@ -39,7 +39,7 @@ const data = {
 const categoriesSection = document.getElementById("categories");
 const productsContainer = document.getElementById("products");
 
-// دالة عرض المنتجات (بعد التعديل)
+
 function showCategory(category){
   categoriesSection.style.display = "none";
   const backSection = document.getElementById("backSection");
@@ -69,7 +69,7 @@ function showCategory(category){
   });
 }
 
-// باقي الدوال (Add to cart, Update, Remove, WhatsApp) بتفضل زي ما هي لأنها بتعتمد على "البيانات" اللي جاية من دالة العرض
+
 function addToCart(btn, name, price, img){
   const card = btn.parentElement;
   const selects = card.querySelectorAll(".item-option");
@@ -102,7 +102,7 @@ function updateCart(){
 
 function removeItem(index){ cart.splice(index,1); updateCart(); }
 
-// أيقونات السلة
+
 const cartPopup = document.getElementById("cartPopup");
 const cartIconTop = document.getElementById("cartIconTop");
 const cartIconBottom = document.getElementById("cartIconBottom");
@@ -112,7 +112,7 @@ if(cartIconTop) cartIconTop.addEventListener("click", ()=>{cartPopup.classList.t
 if(cartIconBottom) cartIconBottom.addEventListener("click", ()=>{cartPopup.classList.toggle("show");});
 if(closeCart) closeCart.addEventListener("click", ()=>{cartPopup.classList.remove("show");});
 
-// إرسال الطلب واتساب
+ 
 document.getElementById("orderBtn").addEventListener("click", ()=>{
   if(cart.length===0){alert("السلة فارغة!"); return;}
   let tableNumber = document.getElementById("tableNumber").value;
@@ -128,7 +128,7 @@ document.getElementById("orderBtn").addEventListener("click", ()=>{
   window.open("https://wa.me/201123385820?text="+encodeURIComponent(message));
 });
 
-// زر العودة
+
 const backBtn = document.getElementById("backBtn");
 if(backBtn) {
     backBtn.addEventListener("click", ()=>{
