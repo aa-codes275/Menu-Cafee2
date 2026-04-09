@@ -1,7 +1,7 @@
 // ملف إدارة أسعار منيو بن نوح
 const menuPrices = {
     // الساخن (Hot)
-    espresso: 56,
+    espresso: 56666,
     cappuccino: 190,
     latte: 180,
     caramel_macchiato: 200,
