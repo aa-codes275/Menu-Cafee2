@@ -1,7 +1,7 @@
 
 const menuPrices = {
   
-    espresso: 70,
+    espresso: 40,
     cappuccino: 90,
     latte: 80,
     caramel_macchiato: 80,
