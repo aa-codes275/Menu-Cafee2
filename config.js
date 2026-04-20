@@ -27,7 +27,7 @@ const menuPrices = {
     cheesecake: 150,
     brownies: 130,
 
-    // الشيشة (Shisha)
+  
     shisha_qass: 20,
     shisha_fruits: 80
 };
